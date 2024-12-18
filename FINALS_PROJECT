@@ -1,0 +1,1047 @@
+#MY FINALS PROJECT
+#SYMON AMIEL C NANEZ
+#BSIT 1B
+
+import os
+def back_menu():
+    global proceed
+    while proceed:
+        back = input("BACK TO MAIN MENU (YES/NO):").lower()
+        if back == 'yes'.lower():
+            break
+        elif back == 'no':
+            print("THANK YOU")
+            break
+        else:
+            print("Invalid input. Please answer with 'YES' or 'NO'.") 
+        break
+ask=input ("Would you like to enter my final project? (yes/no): ")
+if ask == 'yes'.lower():
+    import os
+    tuloy = True
+    while tuloy == True:
+
+    
+        print("*******************************************************************************")
+        print("This is my Activity and Code challenges with thier respective numbers to open")
+        print("\t\t\t***ACTIVITIES***")
+        print("Activity 1 ------------------------------------------------ to open press 1")
+        print("Activity 2 ------------------------------------------------ to open press 2")
+        print("Activity 3 ------------------------------------------------ to open press 3")
+        print("Activity 4 ------------------------------------------------ to open press 4")
+        print("Activity 5 ------------------------------------------------ to open press 5")
+        print("Activity 6 ------------------------------------------------ to open press 6")
+        print("Activity 7 ------------------------------------------------ to open press 7")
+        print("Activity 8 ------------------------------------------------ to open press 8")
+        print("Activity 9 ------------------------------------------------ to open press 9")
+        print("Activity 10 ---------------------------------------------- to open press 10")
+        print("Activity 11 ---------------------------------------------- to open press 11")
+        print("Activity 12 ---------------------------------------------- to open press 12")
+        print("Activity 13 ---------------------------------------------- to open press 13")
+        print("Activity 14 ---------------------------------------------- to open press 14")
+        print("Activity 15 ---------------------------------------------- to open press 15")
+        print("Activity 16 ---------------------------------------------- to open press 16")
+        print("Activity 17 ---------------------------------------------- to open press 17")
+        print("Activity 18 ---------------------------------------------- to open press 18")
+        print("Activity 18 ---------------------------------------------- to open press 19")
+        print("Activity 20 ---------------------------------------------- to open press 20")
+        print("\t\t\t***CODE CHALLENGES***")
+        print("Code_challenge 1 ------------------------------------------to open press 21")
+        print("Code_challenge 2 ------------------------------------------to open press 22")
+        print("Code_challenge 3 ------------------------------------------to open press 23")
+        print("Code_challenge 4 ------------------------------------------to open press 24")
+        print("Code_challenge 5 ------------------------------------------to open press 25")
+        print("Code_challenge 6 ------------------------------------------to open press 26")
+        print("Code_challenge 7 ------------------------------------------to open press 27")
+        print("Code_challenge 8 ------------------------------------------to open press 28")
+        print("Code_challenge 9 ------------------------------------------to open press 29")
+        print("Code_challenge 10 ------------------------------------------to open press 30")
+        print("Code_challenge 11 ------------------------------------------to open press 31")
+        print("Code_challenge 12 ------------------------------------------to open press 32")
+        print("Code_challenge 13 ------------------------------------------to open press 33")
+        print("Code_challenge 14 ------------------------------------------to open press 34")
+        print("to EXIT -------------------------------------------------------press 0")
+        print("********************************************************************************")
+
+        ask2 = int(input("ENTER NUMBERS 1 - 20 TO OPEN MY ACTIVITIES AND 21 - 34 FOR CODE CHALLENGES:"))
+
+        if ask2 == 1:
+            os.system("cls")
+            def Activity1():
+                print()
+                print()
+                print("\t\t***ACTIVITY 1***")
+                print("Hello my fellow IT Students and Teachers!!")
+                print()
+            Activity1()
+            back_menu
+
+        elif ask2 == 2:
+            os.system("cls")
+            def Activity2():
+                print()
+                print()
+                print("\t\t***ACTIVITY 2***")
+                name = input("Please enter your name: ")
+                age = input("Enter your age number: ")
+                email = input("Enter your email: ")
+
+                print()
+                print("Hi! " + name + " Welcome!! :) \n" + "Your age is " + age + " right? \n" + "Your email address is: " + email)
+                print("Your name consist of" ,len(name) ,"characters")
+
+                num1 = eval(input("Please input a number: "))
+                num2 = eval(input("Please input a number: "))
+
+                print()
+                print(num1 , "+" , num2 ,"=" , num1 + num2)
+            Activity2()
+            back_menu
+
+        elif ask2 == 3:
+            os.system("cls")
+            def Activity3():
+                print()
+                print()
+                print("\t\t***ACTIVITY 3***")
+                name = input("Enter your name: ")
+                age = int(input("Enter your age: "))
+                address = input("Enter your address: ")
+
+                print(f"Hi {name}, from {address} and {age} yrs  old")
+            Activity3()
+            back_menu
+
+        elif ask2 == 4:
+            os.system("cls")
+            def Activity4():
+                print()
+                print()
+                print("\t\t***ACTIVITY 4***")
+                f = eval(input("Enter the Fahrenheit you want to convert: "))
+                c = (f-32)* 5 / 9
+
+                print(f"{f} degree fahrenheit converted to celsius is {round(c,2)}")
+
+                cel = eval(input("Enter the Celcius: "))
+                fah = (c*9/5) + 32
+
+                print(f"{cel} degree celcius converted to fahrenheit is {round(fah)}")
+            Activity4()
+            back_menu
+
+        elif ask2 == 5:
+            os.system("cls")
+            def Activity5():
+                print()
+                print()
+                print("\t\t***ACTIVITY 5***")
+                x = 10 
+                print(x)
+
+                x += x + 10
+                print(x)
+
+                x += x + 20
+                print(x)
+
+                x *= 10
+                print(x)
+
+                x -= 20
+                print(x)
+
+                x /= 10 
+                print(x)
+            Activity5()
+            back_menu
+
+        elif ask2 == 6:
+            os.system("cls")
+            def Activity6():
+                print()
+                print()
+                print("\t\t***ACTIVITY 6***")
+                password = "12345678"
+
+                mypassword = input("Enter password: ")
+
+                if password == mypassword:
+                    print("Welcome to conditional statements")
+
+
+                elif mypassword == "987654321":
+                    print("Granted access!!") 
+
+                elif mypassword == "edipogitayo":
+                    print("You still have an access")
+
+                else:
+                    print("Access Denied")
+            Activity6()
+            back_menu
+
+        elif ask2 == 7:
+            os.system("cls")
+            def Activity7():
+                print()
+                print()
+                print("\t\t***ACTIVITY 7***")
+                name = input("Enter your name: ")
+                IsEnrolled = input("Are you currently enrolled in DLL (yes / no):   ")
+                if IsEnrolled.lower() == "yes":
+                    #Age of the student
+                    print(f"Hi {name}, Welcome to the DLL scholarship grant system")
+                    age = eval(input("Enter your age: "))
+
+                    if age >= 18 and age <= 35:
+                        print("Your age complied with the age requirement")
+
+                        #Grades of the students
+                        grades = eval(input("Enter your last GWA: "))
+        
+                        if grades >= 85 and grades <= 100:
+                            print("Your Last GWA passed the requiremnts")
+
+                            is4ps = input("Are your family a member of Apa (yes / no): ")
+
+                            if is4ps.lower() == "yes":
+                                print("Congratulation you passed the granted a scholarship")
+                            else:
+                                print("Sorry on 4ps is allowed for DLL scholarship")
+                        else:
+                            print(("Sorry you didn't passed the GWA requirements"))
+                    else:
+                        print("Sorry you didn't passed the age requirements") 
+                else:
+                    print("Thank you for using the system")
+            Activity7()
+            back_menu
+
+        elif ask2 == 8:
+            os.system("cls")
+            def Activity8():
+                print()
+                print()
+                print("\t\t***ACTIVITY 8***")
+                sum = 0
+                odd = 0 
+                even = 0
+
+                for x in range(1,11):
+                    num = eval(input(f"Input# {x}: "))
+                    sum += num 
+                    if num % 2 == 0:
+                        even += num
+                    else:
+                        odd += num
+                print(f"The sum of all numbers are: {sum}")
+                print(f"The sum of all even numbers are: {even}")
+                print(f"The sum of all odd numbers are: {odd}")
+            Activity8()
+            back_menu
+        
+        elif ask2 == 9:
+            os.system("cls")
+            def Activity9():
+                print()
+                print()
+                print("\t\t***ACTIVITY 9***")
+                num = eval(input("Enter any number: "))
+                factorial = 1 
+
+                for x in range(num,0,-1):
+                    factorial *= x
+                print(f"The factorial of {num} is {factorial}")
+            Activity9()
+            back_menu
+            
+        elif ask2 == 10:
+            os.system("cls")
+            def Activity10():
+                print()
+                print()
+                print("\t\t***ACTIVITY 10***")
+                for x in range(1,11):
+                    print(x,end=" ")
+                    for y in range(1,11):
+                        print("*",end=" ")
+                    print()
+            Activity10()
+            back_menu
+
+        elif ask2 == 11:
+            os.system("cls")
+            def Activity11():
+                print()
+                print()
+                print("\t\t***ACTIVITY 11***")
+                for x in range(1,6):
+                    for y in range(1,x+1):
+                        print(" ",end=" ")
+                    for z in range(6,x,-1):
+                        print("*",end=" ")
+                    print()
+            Activity11()
+            back_menu
+        
+        elif ask2 == 12:
+            os.system("cls")
+            def Activity12():
+                print()
+                print()
+                print("\t\t***ACTIVITY 12***")
+                for s in range(7,0,-1):
+                    for y in range(1,s+1):
+                        print(" ",end=" ")
+                    for m in range(6,s,-1):
+                        print("*",end=" ")
+                    for o in range(7,s,-1):
+                        print("*",end=" ")
+                    print()
+
+                for n in range(1,6):
+                    for a in range(0,n + 1):
+                        print(" ",end=" ")
+                    for b in range(5,n,-1):
+                        print("*",end=" ")
+                    for c in range(6,n,-1):
+                        print("*",end=" ")
+                    print()
+            Activity12()
+            back_menu
+
+        elif ask2 == 13:
+            os.system("cls")
+            def Activity13():
+                print()
+                print()
+                print("\t\t***ACTIVITY 13***")
+                num = eval(input("Enter the column number:  "))
+                for x in range(1,11):
+                    for y in range(1,num+1):
+                        print(f"{x*y}={x+y}",end="\t")
+                    print()
+            Activity13()
+            back_menu
+
+        elif ask2 == 14:
+            os.system("cls")
+            def Activity14():
+                print()
+                print()
+                print("\t\t***ACTIVITY 14***")
+                num = eval(input("Enter a number:  "))
+                for x in range(1,6):
+                    for z in range(1,num+1):
+                        for y in range(1,x+1):
+                            print("*",end=" ")
+                        for a in range(6,x,-1):
+                            print(" ",end=" ")
+                        print(end="")
+                    print()
+            Activity14()
+            back_menu
+
+        elif ask2 == 15:
+            os.system("cls")
+            def Activity15():
+                print()
+                print()
+                print("\t\t***ACTIVITY 15***")
+                import os
+                repeat = True
+                nt = 0
+                while repeat == True:
+                    ask = input("Do you wish to add more triangles? (yes/no) ")
+
+                    if ask.lower() == "no":
+                            os.system('cls')
+                            print("LOOP HAS BEEN STOPPED")
+                            repeat = False
+                            break
+                            
+                    elif ask.lower() == "yes":
+                        os.system('cls')
+                        nt += 1
+                        for x in range(1,7):
+                            for z in range(1,nt+1):
+                                for y in range(1, x+1):
+                                        print("*", end=" ")
+                                for a in range(7, x, -1):
+                                        print(" ",end=" ")
+                                print(end=" ")
+                            print()
+                        continue
+                    else:
+                        print("Invalid Input")
+            Activity15()
+            back_menu
+
+        elif ask2 == 16:
+            os.system("cls")
+            def Activity16():
+                print()
+                print()
+                print("\t\t***ACTIVITY 16***")
+                tuloy = True 
+ 
+                #continue to ask for a number, once user types the number ZERO (0) terminate the loop and get the summation of all the
+                #number(s) given
+                sum = 0
+                while tuloy == True:
+                    num = eval(input("Enter any number --->  "))
+
+                    if num == 0:
+                        print("LOOP STOPPED")
+                        print(f"The sum of all the numbers given is {sum}")
+                        break
+                        tuloy = False 
+                    else:
+                        sum += num 
+                        continue
+            Activity16()
+            back_menu
+
+        elif ask2 == 17:
+            os.system("cls")
+            def Acitivity17():
+                print()
+                print()
+                print("\t\t***ACTIVITY 17***")
+                def greet_Someone():
+                    print("Hi , hoped your having a delightful Tuesday afternoon.")
+
+
+                def greet_Person(name):
+                    print(f"Hi {name}, hoped your having a delightful Tuesday afternoon.")
+
+                def right_Triangle():
+                    for x in range(1, 6):
+                        for y in range(1, x+1):
+                            print("*", end=" ")
+                        for z in range(6, x, -1):
+                            print(" ",end= " ")
+                        print()
+
+                def get_info(name, age):
+                    print(f"Hi {name}, with age {age} yrs old.")
+
+
+                def factorial(number):
+                    #factorial of 4 - 4 x 3 x 2 x 1 
+                    fact = 1 
+                    for x in range(number, 0, -1):
+                        fact *= x
+                    print(f"The factorial of {number} is {fact}")
+
+
+
+                tuloy = True
+
+                while tuloy:
+                    print("-------------------------------")
+                    print("WELCOME TO MY COMPILATION PROGRAM")
+
+                    print("PLEASE SELECT FROM THE OPTIONS BELOW")
+                    print("1 -- RIGHT TRIANGLE")
+                    print("2 -- FACTORIAL")
+                    print("3 -- GREET SOMEONE")
+                    print("4 -- EXIT")
+
+                    choice = eval(input("Which program would you like to run (1,2,3,4) -- > "))
+
+                    if choice == 1:
+                        print("THIS IS A PROGRAM THAT WILL SHOW YOU A RIGHT TRIANGLE MADE FROM PYTHON")
+                        right_Triangle()
+                        continue
+                    elif choice == 2:
+                        print("THIS IS A PROGRAM THAT CALCULATES FACTORIAL")
+                        number = eval(input("enter a number "))
+                        factorial(number)
+                        continue
+                    elif choice == 3:
+                        greet_Someone()
+                        continue
+                    elif choice == 4:
+                        print("Program Terminated")
+                        break
+                    else:
+                        print("INVALID CHOICE")
+                        continue
+            Acitivity17()
+            back_menu
+
+        elif ask2 == 18:
+            os.system("cls")
+            def Activity18():
+                print()
+                print()
+                print("\t\t***ACITIVITY 18***")
+                def factorial(number):
+                    """THIS FUNCTION IS FOR CALCULATING FACTORIAL, JUST PUT THE NUMBER INSIDE THE PARENTHESIS"""
+                    fact = 1
+                    for x in range(number, 0, -1):
+                        fact *= x
+                        print(x)
+                    return fact
+                factorial(6)
+            Activity18()
+            back_menu
+
+        elif ask2 == 19:
+            os.system("cls")
+            def Activity19():
+                print()
+                print()
+                print("\t\t***ACTIVITY 19***")
+                global factorial
+                global num
+                from activity9 import factorial,num
+
+
+                print(f"the factorial of {num} is {factorial}")
+            Activity19()
+            back_menu
+
+        elif ask2 == 20:
+            os.system("cls")
+            def Activity20():
+                print()
+                print()
+                print("\t\t***ACTIVITY 20***")
+                fruits=["apple","grapes","banana","pineapple","watermelon"]
+                print(fruits)
+                print()
+                #         0         1         2          3          4
+                fruits=["apple","grapes","banana","pineapple","watermelon"]
+
+                # Accesing an item
+                print(f"My favorite fruit is {fruits[1]}")
+                print()
+
+                # Add an item to the end of the list
+                fruits.append("longgan")
+                print(fruits)
+                print()
+
+                # Inserting an item on specific index
+                fruits.insert(3,"guyabano")
+                print(fruits)
+                print()
+
+                #Change item or value
+                fruits[0] = "kiwi"
+                print(fruits)
+                print()
+
+                #Remove item on list
+                fruits.remove("banana")
+                print(fruits)
+                print()
+
+                #To determine how many items a list has
+                print(len(fruits))
+            Activity20()
+            back_menu
+
+        elif ask2 == 21:
+            os.system("cls")
+            def Code_challenge1():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 1***")
+                print("\t\t\t\t\t\t\t        *     \n\t\t\t\t\t\t\t      * * *     \n\t\t\t\t\t\t\t    * * * * *     \n\t\t\t\t\t\t\t  * * * * * * *     \n\t\t\t\t\t\t\t    * * * * *     \n\t\t\t\t\t\t\t      * * *     \n\t\t\t\t\t\t\t        *")
+            Code_challenge1()
+            back_menu
+
+
+        elif ask2 == 22:
+            os.system("cls")
+            def Code_challenge2():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 2***")
+                name = input(" What is your name? ")
+                print("\t\t\t\t\t\t\t        *     \n\t\t\t\t\t\t\t      * * *     \n\t\t\t\t\t\t\t    * * * * *     \n\t\t\t\t\t\t\t  * hi!"+ name +" *     \n\t\t\t\t\t\t\t    * * * * *     \n\t\t\t\t\t\t\t      * * *     \n\t\t\t\t\t\t\t        *")
+            Code_challenge2()
+            back_menu
+
+        elif ask2 == 23:
+            os.system("cls")
+            def Code_challenge3():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 3***")
+                num1 =eval(input("Enter your first number:")) 
+                num2 =eval(input("Enter your second number:")) 
+                print("The sum of" ,num1,"and" ,num2,"is", num1 + num2 ) 
+                print("The difference of" ,num1,"and" ,num2,"is", num1 - num2 ) 
+                print("The product of" ,num1,"and" ,num2,"is", num1 * num2 ) 
+                print("The qoutient of" ,num1,"and" ,num2,"is", num1 / num2 ) 
+                print(num1,"exponent","by",num2,"is", num1 ** num2) 
+                print("The remainder of" ,num1,"and" ,num2,"is", num1 // num2 ) 
+                print("The floor division of" ,num1,"and" ,num2,"is", num1 % num2 )
+            Code_challenge3()
+            back_menu
+
+        elif ask2 == 24:
+            os.system("cls")
+            def Code_challenge4():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 4***")
+                name = input("What is your name:") 
+                dep = eval(input("Enter amount to deposit:")) 
+                thousand = dep // 1000 
+                bal = dep % 1000 
+                fiveh = bal // 500 
+                bal= bal % 500 
+                twoh = bal // 200 
+                bal = bal % 200 
+                oneh = bal // 100 
+                bal = bal % 100 
+                fifty = bal // 50 
+                bal = bal % 50 
+                twenty = bal // 20 
+                bal = bal % 20 
+                ten = bal // 10 
+                bal = bal % 10 
+                five = bal // 5 
+                bal = bal % 5 
+                one = bal // 1 
+                bal= bal % 1 
+
+
+                print(thousand,"-  1000") 
+                print(fiveh,"-  500") 
+                print(twoh,"-  200") 
+                print(oneh,"-  100") 
+                print(fifty,"-  50") 
+                print(twenty,"-  20") 
+                print(ten,"-  10") 
+                print(five,"-  5") 
+                print(one,"-  1")
+            Code_challenge4()
+            back_menu
+
+        elif ask2 == 25:
+            os.system("cls")
+            def Code_challenge5():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 5***")
+                num1 = eval(input("Enter your grade in prelim here: "))
+                num2 = eval(input("Enter your grade in midterm here: "))
+                num3 = eval(input("Enter your semi-final grade here: "))
+                num4 = eval(input("Enter your grade in final here: "))
+                num5 = eval(input("Enter your grade in Quiz here: "))
+                num6 = eval(input("Enter your grade in project here: "))
+
+                fg = (num1 * .15) + (num2 * .15) + (num3 * .15) + (num4 * .15) + (num5 * .25) + (num6 * .15)
+
+                if fg >= 75 :
+                    print(f"Congratulations! You passed the course and your final grade is {fg}")
+                else :
+                    print(f"Sorry, you failed and your final grade is {fg}")
+            Code_challenge5()
+            back_menu
+
+        elif ask2 == 26:
+            os.system("cls")
+            def Code_challenge6():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 6***")
+                name = input("Enter your name:") 
+                age =eval(input("Enter your age:")) 
+                if age >= 1 and age <= 8: 	
+                    print("Your age is considered as Toddler") 
+                if age >= 9 and age <= 14: 	
+                    print("Your age is considered as Preteen") 
+                if age >= 15 and age <= 18: 	
+                    print("Your age is considered as Teenage") 
+                if age >= 19 and age <= 27: 	
+                    print("Your age is considered as Early Adulthood") 
+                if age >= 28 and age <= 44: 	
+                    print("Your age is considered as Middle Age") 
+                if age >= 45 and age <= 59: 	
+                    print("Your age is considered as Post Adulthood") 
+                if age >= 60 and age <= 100: 	
+                    print("Your age is considered as Post Senior") 
+                    
+                else: 	
+                    print(f"Invalid Age")
+            Code_challenge6()
+            back_menu
+
+        elif ask2 == 27:
+            os.system("cls")
+            def Code_challenge7():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 7***")
+                name = input("Enter your name:") 
+                purchase = input("Did you purchase a grocery today(yes/no):") 
+                item = input("What did you purchase:") 
+                price =eval(input("Item price:")) 
+                age = eval(input("Your age:")) 
+                bill = eval(input("Your payment:")) 
+
+                #if the total price is less than 4000 
+                result = (price * 0.123) 
+                taxp = (result + price) 
+                change = (bill - taxp ) 
+
+                if price >=1 and price <= 4000: 	
+                    print(f"Your change is:",change)
+
+                #if the total price is more than 4000, you have a discount of 3.8% 
+                result2 = (price * 0.038) 
+                discount = (price - result2) 
+                change2 = (bill - discount)
+
+                if price >=4001: 	
+                    print(f"Your change is:",change2) 
+
+                #if age is more than 60 and not higher than 150. 
+                result3 = (price * 0.123) 
+                discount2 = (price - result3) 
+                change3 = (bill - discount2 )
+
+                if age >=60 and age<= 150: 	
+                    print(f"Your change is:",change3)
+            Code_challenge7()
+            back_menu
+
+        elif ask2 == 28:
+            os.system("cls")
+            def Code_challenge8():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 8***")
+                sum = 0 
+                odd = 0 
+                even = 0 
+
+                for x in range(1, 11):   
+                    num =eval(input("Enter a number:"))   
+                    sum += num     
+                    
+                    if num % 2 == 0:     
+                        even += num   
+                    
+                    else:     
+                        odd += num     
+                    
+                print(f"The total value of all the given number is {sum}:") 
+                print(f"The total value of all the EVEN number is {even}:") 
+                print(f"The total value of all the ODD number is {odd}:")
+            Code_challenge8()
+            back_menu
+
+        elif ask2 == 29:
+            os.system("cls")
+            def Code_challenge9():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 9***")
+                for a in range(1,11): 	
+                    for b in range(1, a +1): 		
+                        print(" ",end=" ") 	
+                    for c in range(11, a, - 1): 		
+                        print("*",end=" ") 	
+                    print()
+            Code_challenge9()
+            back_menu
+
+        elif ask2 == 30:
+            os.system("cls")
+            def Code_challenge10():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 10***")
+                for x in range(1, 6):   
+                    for z in range(6, x, -1):     
+                        print(" ",end=" ")   
+                    for y in range(1, x +1):     
+                        print("*",end=" ")   
+                    for a in range(0, x ,+1):     
+                        print("*",end=" ")   
+                    print()     
+                    
+                for x in range(1, 6):   
+                    for y in range(1, x +1):     
+                        print(" ",end=" ")   
+                    for z in range(6, x, -1):     
+                        print("^",end=" ")   
+                    for a in range(6, x, -1):     
+                        print("^",end=" ")   
+                    print()
+            Code_challenge10()
+            back_menu
+
+        elif ask2 == 31:
+            os.system("cls")
+            def Code_challenge11():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 11***")
+                for s in range(1, 5):   
+                    for y in range(4, s, -1):     
+                        print(" ",end=" ")   
+                    for m in range(0, s -1):     
+                        print("*",end=" ")   
+                    for o in range(0, s):     
+                        print("*",end=" ")   
+                    print()     
+                    
+                for n in range(1, 4):   
+                    for a in range(1, n +1):     
+                        print(" ",end=" ")   
+                    for i in range(4, n, -1):     
+                        print("*",end=" ")   
+                    for e in range(3, n, -1):     
+                        print("*",end=" ")   
+                    print()
+            Code_challenge11()
+            back_menu
+
+        elif ask2 == 32:
+            os.system("cls")
+            def Code_challenge12():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 12***")
+                for n in range(1, 5):   
+                    for a in range(6, n, -1):     
+                        print(" ",end=" ")   
+                    for ñ in range(1, n +1):     
+                        print("*",end=" ")   
+                    for e in range(1, n +1):     
+                        print("*",end=" ")   
+                    print()     
+                    
+                for z in range(1, 5):   
+                    for j in range(1, 6):     
+                        print(" ",end=" ")   
+                    for r in range(1, 3):     
+                        print("*",end=" ")   
+                    print()
+            Code_challenge12()
+            back_menu
+
+        elif ask2 == 33:
+            os.system("cls")
+            def Code_challenge13():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE 13***")
+                num = eval(input("Enter a number:"))
+                sum = 0
+                IsRepeat = True
+
+                while IsRepeat == True:
+                    sum += num
+                    num = eval(input("Enter a number:"))
+                    if num == 0:
+                        print(f"the sum of all the given numbers is:{sum}")
+            Code_challenge13()
+            back_menu
+
+        elif ask2 == 34:
+            os.system("cls")
+            def Code_challenge14():
+                print()
+                print()
+                print("\t\t***CODE CHALLENGE14***")
+                has_account = False
+                running = True
+                import os
+
+                bal = 0
+
+                def deposit_money():
+                    global bal
+                    os.system('cls')
+                    amount = eval(input("How much would you like to deposit?"))
+
+                    tsun = amount // 1000
+                    tsun2 = amount % 1000
+                    fhun = tsun2 // 500
+                    fhun2 = tsun2 % 500
+                    thun = fhun2 // 200
+                    thun2 = fhun2 % 200
+                    ohun = thun2 // 100
+                    ohun2 = thun2 % 100
+                    fifty = ohun2 // 50
+                    fifty2 = ohun2 % 50
+                    bente = fifty2 // 20
+                    bente2 = fifty2 % 20
+                    ten = bente2 // 10
+                    ten2 = bente2 % 10
+                    payb = ten2 // 5
+                    payb2 = ten2 % 5
+                    wan = payb2 // 1
+                    wan2 = payb2 % 1
+
+                    os.system('cls')
+                    print("Filipino denominations of the amount you would like to deposit is as follows:")
+                    print(f"1000 = {tsun}")
+                    print(f"500 = {fhun}")
+                    print(f"200 = {thun}")
+                    print(f"100 = {ohun}")
+                    print(f"50 = {fifty}")
+                    print(f"20 = {bente}")
+                    print(f"10 = {ten}")
+                    print(f"5 = {payb}")
+                    print(f"1 = {wan}")
+                    print(f"Amount entered: {amount}")
+
+                    choice1 = input("Would you like to deposit the amount? (YES or NO)")
+                    if choice1.lower() == "yes":
+                        os.system('cls')
+                        bal += amount
+                        print(f"You have successfully deposited {amount} pesos.")
+                        bla = input("Plese enter 'OK' to continue.")
+                        return bal
+                    elif choice1.lower() == "no":
+                        os.system('cls')
+                        print("Deposit session has ended.")
+                        print()
+                        return bal
+
+                def check_balance():
+                    os.system('cls')
+                    print(f"Your total balance is {bal} pesos.")
+                    bla = input("Plese enter 'OK' to continue.")
+
+                def withdraw_money():
+                    global bal
+                    os.system('cls')
+                    amount = eval(input("How much would you like to withdraw? "))
+                    if amount >= bal:
+                        print(f"Withdraw amount must not be greater than the available balance {bal}.")
+                        print(f"Amount entered: {amount}")
+                        bla = input("Plese enter 'OK' to continue.")
+                    elif amount == bal or amount <= bal:
+                        bal -= amount
+                        os.system('cls')
+                        print(f"{amount} has been successfully withdrawn, your current balance is now {bal}.")
+                        bla = input("Plese enter 'OK' to continue.")
+                        return bal
+                    else:
+                        print("Invalid input.")
+                        print()
+
+                while running == True:
+                    os.system('cls')
+                    print("Welcome to JERB Bank Services")
+                    if has_account == False:
+                        os.system('cls')
+                        sign_in = input("You will need to create an account in order use our services.\nWould you like to create an account? (YES or NO)")
+                        if sign_in.lower() == "yes":
+                            os.system('cls')
+                            print("Account Sign Up")
+                            print()
+                            name = input("Please enter your name. ")
+                            password = input("Create your own password. ")
+                            pass_confirm = input("Re-enter your password. ")
+                            if pass_confirm == password :
+                                os.system('cls')
+                                print("Account successfully created")
+                                has_account = True
+                                bla = input("Plese enter 'OK' to continue.")
+                        elif sign_in.lower() == "no":
+                            print("Thank you for using our system.")
+                            running = False
+                            break
+
+                    elif has_account == True:
+                        while running == True:
+                            os.system('cls')
+                            print("Please login your account to access our services.")
+                            whatname = input("Name: ")
+                            if whatname == name:
+                                whatpass = input("Password: ")
+                                if whatpass == password:
+                                    while running == True:
+                                        os.system('cls')
+                                        print(f"Hi {name}! What would you like to do for today?")
+                                        print("1. Check balance")
+                                        print("2. Deposit money")
+                                        print("3. Withdraw money")
+                                        print("4. End program")
+                                        choice = input("")
+                                        if choice == "1":
+                                            check_balance()
+                                        elif choice == "2":
+                                            deposit_money()
+                                        elif choice == "3":
+                                            withdraw_money()
+                                        elif choice == "4":
+                                            os.system('cls')
+                                            print("Thank you for using our services.")
+                                            running = False
+                                            break
+                                elif whatpass != password:
+                                    os.system('cls')
+                                    print("Incorrect password.")
+                                    bla = input("Plese enter 'OK' to continue.")
+                            elif whatname != name:
+                                os.system('cls')
+                                print("Account name does not exist.")
+                                bla = input("Plese enter 'OK' to continue.")
+            Code_challenge14()
+            back_menu
+
+        elif ask2 == 0:
+            print("THANK YOU FOR VISITING MY FINAL PROJECT")
+            break
+        else:
+            print("INVALID INPUT")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+        
+    
+
+
+
+
+
+
+
